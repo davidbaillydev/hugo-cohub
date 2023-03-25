@@ -1,8 +1,10 @@
 baseURL = 'https://cohub-hugo.netlify.app'
-languageCode = 'en-us'
+# languageCode = 'en-us's
+languageName = "Français"
+languageCode = "fr-fr"
 paginate = 6
-theme= "coHub"
-title = 'coHub'
+themes= "coHub"
+title = 'lcDigitale'
  
 [Menu]
   # Main Menu
@@ -48,8 +50,8 @@ title = 'coHub'
 [params]
   aboutPageURL = "blog"
   contactLink = "contact"
-  copyright = "© {year} coHub. Inc."
-  formspreeURL = "https://formspree.io/mbjwlead"
+  copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
+  fabFormURL =  "https://fabform.io/f/u00kv3-"
   googleAnalytics = "G-JZ95FEWF9K"
   logo = "images/logo.png"
   footerlogo = "images/logo.png"
