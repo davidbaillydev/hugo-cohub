@@ -2610,7 +2610,12 @@
 }
 
 [data-aos^=flip][data-aos^=flip] {
+<<<<<<< HEAD
   backface-visibility: hidden;
+=======
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+>>>>>>> ad835c2763d48261c67c4482de53d38f1d732437
   transition-property: transform;
 }
 
@@ -3322,6 +3327,10 @@
   }
 }
 .animated.flip {
+<<<<<<< HEAD
+=======
+  -webkit-backface-visibility: visible;
+>>>>>>> ad835c2763d48261c67c4482de53d38f1d732437
   backface-visibility: visible;
   animation-name: flip;
 }
@@ -3347,6 +3356,10 @@
   }
 }
 .flipInX {
+<<<<<<< HEAD
+=======
+  -webkit-backface-visibility: visible !important;
+>>>>>>> ad835c2763d48261c67c4482de53d38f1d732437
   backface-visibility: visible !important;
   animation-name: flipInX;
 }
@@ -3372,6 +3385,10 @@
   }
 }
 .flipInY {
+<<<<<<< HEAD
+=======
+  -webkit-backface-visibility: visible !important;
+>>>>>>> ad835c2763d48261c67c4482de53d38f1d732437
   backface-visibility: visible !important;
   animation-name: flipInY;
 }
@@ -3391,6 +3408,10 @@
 .flipOutX {
   animation-duration: 0.75s;
   animation-name: flipOutX;
+<<<<<<< HEAD
+=======
+  -webkit-backface-visibility: visible !important;
+>>>>>>> ad835c2763d48261c67c4482de53d38f1d732437
   backface-visibility: visible !important;
 }
 @keyframes flipOutY {
@@ -3408,6 +3429,10 @@
 }
 .flipOutY {
   animation-duration: 0.75s;
+<<<<<<< HEAD
+=======
+  -webkit-backface-visibility: visible !important;
+>>>>>>> ad835c2763d48261c67c4482de53d38f1d732437
   backface-visibility: visible !important;
   animation-name: flipOutY;
 }
